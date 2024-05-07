@@ -10,7 +10,7 @@ function ProfilesCards() {
             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Coding Profile Links</div>
             <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Also Explore my Projects</a>
           </div>
-          <div className="flex space-x-4 border-2 gap-5 px-4 py-2 rounded-xl bg-gray-100">
+          <div className="flex space-x-4 justify-center border-2 gap-5 px-4 mt-4 py-2 rounded-xl bg-gray-100">
             <a href="https://leetcode.com/u/just__do__it" target="_blank" rel="noopener noreferrer">
                 <img className="h-10 w-10" src={leetcodeIcon} alt="LeetCode" />
             </a>
