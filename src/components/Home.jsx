@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <div className="fixed left-0 bottom-0 z-50 sm:top-0 h-full flex flex-col justify-end items-center text-white p-4">
-        <div className="bg-blue-900 flex md:flex-col md:px-4 flex-row gap-6 py-2 px-8 rounded-xl">
+        <div className="bg-blue-900 md:flex-col hidden sm:flex md:px-4 flex-row gap-6 py-2 px-8 rounded-xl">
           <a
             href="https://www.instagram.com/zaidiyazda/"
             target="_blank"

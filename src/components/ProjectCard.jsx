@@ -1,6 +1,6 @@
 const ProjectCard = () => {
   return (
-    <div className="w-full p-4 rounded-xl backdrop-blur-md group border-2 bg-gray-400 border-fade-primary bg-secondary hover:bg-gray-500 transition-all duration-200 mb-4 cursor-pointer">
+    <div className="w-full p-4 rounded-xl mx-4 md:mx-0 backdrop-blur-md group border-2 bg-gray-400 border-fade-primary bg-secondary hover:bg-gray-500 transition-all duration-200 mb-4 cursor-pointer">
       <div className="bg-gray-100 hover:bg-gray-200 p-5 rounded-xl">
         <div className="flex items-center mt-5">
           <h1 className="font-bold text-2xl group-hover:text-cta duration-400 transition-all mr-2">
