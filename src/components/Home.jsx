@@ -44,6 +44,37 @@ export default function Home() {
       </div>
       <Project />
       <MusicPlayer/>
+      <div className="z-5 flex flex-col bg-blue-950 justify-end items-center text-white p-4">
+        <div className="md:flex-col flex sm:hidden md:px-4 flex-row gap-10 py-2 px-8 rounded-xl">
+          <a
+            href="https://www.instagram.com/zaidiyazda/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-2"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ali-yazdan-452711229"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-2"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:yazdaalizaidi@gmail.com" className="my-2">
+            <i className="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.keybr.com/profile/q3sxpkl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-2"
+          >
+            <i className="fas fa-keyboard"></i>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
