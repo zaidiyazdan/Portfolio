@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="px-6 sm:px-32 md:px-60">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-kanit italic  font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-700 text-center my-8">My Skills</h1>
           <p className="font-kanit text-xl mt-10">
-          Throughout my journey, I have honed my skills in a wide array of technologies. I am proficient in JavaScript, Python, Java,C++ and familiar with frameworks like React,Express.I am adept at managing databases using MySQL and MongoDB, and skilled in version control with Git. My expertise extends to front-end technologies like HTML, CSS,Tailwind, and Bootstrap.
+          Throughout my journey, I have honed my skills in a wide array of technologies. I am proficient in JavaScript, C++,C and familiar with frameworks like React,Express.I am adept at managing databases using MySQL and MongoDB, and skilled in version control with Git. My expertise extends to front-end technologies like HTML, CSS,Tailwind, and Bootstrap.
           </p>
           <h2 className="text-3xl font-kanit mt-10">
             Languages

@@ -44,8 +44,8 @@ export default function Home() {
       </div>
       <Project />
       <MusicPlayer/>
-      <div className="z-5 flex flex-col bg-blue-950 justify-end items-center text-white p-4">
-        <div className="md:flex-col flex sm:hidden md:px-4 flex-row gap-10 py-2 px-8 rounded-xl">
+      <div className="z-5 flex flex-col bg-blue-950 border-t-2 sm:border-none border-gray-300 justify-end items-center text-white p-4">
+        <div className="md:flex-col flex sm:hidden flex-row gap-10 py-2 px-8 rounded-xl">
           <a
             href="https://www.instagram.com/zaidiyazda/"
             target="_blank"

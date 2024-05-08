@@ -1,13 +1,13 @@
 import erevive from '../assets/erevive.png'
 import mightymuscles from '../assets/mightymuscles.png'
-
+import drivaMate from "../assets/driveMate2.png"
 
 const Project = () => {
   return (
     <div className="bg-gradient-to-b flex flex-col justify-start items-center lg:px-60 bg-black py-6 to-blue-950 from-black ">
       <h1 className="text-4xl sm:text-5xl font-kanit  font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-blue-700">My Projects</h1>
       <div className="text-center  flex justify-center flex-col gap-3">
-        <h1 className="text-4xl md:text-5xl md:hidden py-8  font-kanit italic font-normal text-white underline text-shadow-black">
+        <h1 className="text-3xl md:hidden py-8 px-4  font-kanit italic font-normal text-white underline text-shadow-black">
           I have poured my passion for innovation into a variety of projects.
           Explore them below
         </h1>
@@ -42,7 +42,7 @@ const Project = () => {
               </p>
               <div className='bg-stone-300 rounded-lg mt-4 p-4'>
               <img
-                src="https://buzzflick.com/wp-content/uploads/2022/02/Top-App-Demo-Videos.jpg"
+                src={drivaMate}
                 className="transform rounded-md group-hover:-translate-y-3 my-4 transition-all duration-200 ease-in-out"
                 alt=""
               />
