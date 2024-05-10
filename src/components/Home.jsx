@@ -12,14 +12,14 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <div className="fixed left-0 bottom-0 z-50 sm:top-0 h-full flex flex-col justify-end items-center text-white p-4">
-        <div className="bg-blue-900 md:flex-col hidden sm:flex md:px-4 flex-row gap-6 py-2 px-8 rounded-xl">
+        <div className="bg-blue-900 md:flex-col hidden sm:flex md:px-4 flex-row gap-3 py-2 px-8 rounded-xl">
           <a
             href="https://www.instagram.com/zaidiyazda/"
             target="_blank"
             rel="noopener noreferrer"
             className="my-2"
           >
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-instagram text-2xl hover:text-gray-300"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/ali-yazdan-452711229"
@@ -27,10 +27,10 @@ export default function Home() {
             rel="noopener noreferrer"
             className="my-2"
           >
-            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin text-2xl hover:text-gray-300"></i>
           </a>
           <a href="mailto:yazdaalizaidi@gmail.com" className="my-2">
-            <i className="fas fa-envelope"></i>
+            <i className="fas fa-envelope text-xl hover:text-gray-300"></i>
           </a>
           <a
             href="https://www.keybr.com/profile/q3sxpkl"
@@ -38,7 +38,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="my-2"
           >
-            <i className="fas fa-keyboard"></i>
+            <i className="fas fa-keyboard text-xl hover:text-gray-300"></i>
           </a>
         </div>
       </div>

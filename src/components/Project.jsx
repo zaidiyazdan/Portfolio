@@ -4,14 +4,14 @@ import drivaMate from "../assets/driveMate2.png"
 
 const Project = () => {
   return (
-    <div className="bg-gradient-to-b flex flex-col justify-start items-center lg:px-60 bg-black py-6 to-blue-950 from-black ">
+    <div className="bg-gradient-to-b flex flex-col justify-start items-center lg:px-60 py-6 to-blue-950 from-black ">
       <h1 className="text-4xl sm:text-5xl font-kanit  font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-blue-700">My Projects</h1>
       <div className="text-center  flex justify-center flex-col gap-3">
         <h1 className="text-3xl md:hidden py-8 px-4  font-kanit italic font-normal text-white underline text-shadow-black">
           I have poured my passion for innovation into a variety of projects.
           Explore them below
         </h1>
-        <h1 className="text-5xl md:text-5xl hidden md:block py-8  font-kanit italic font-normal text-white underline text-shadow-black">
+        <h1 className="text-5xl md:text-4xl my-4 hidden md:block py-6  font-kanit italic font-normal text-white  text-shadow-black">
           I have poured my passion for innovation into a variety of projects.
           Explore them below
         </h1>

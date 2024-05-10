@@ -36,3 +36,27 @@
       transform: rotate(0deg);
     }
 }
+
+.radial-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 100%);
+  animation: pulse 2s ease-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
