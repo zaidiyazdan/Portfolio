@@ -12,17 +12,17 @@ function Navbar() {
           </div>
           <div className="backdrop-blur-md hidden sm:block font-kanit text-center bg-gradient-to-b from-blue-700 to-blue-900 rounded-full px-8">
             <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))]  text-white">
-              <Link to={"/about"} className="px-3 py-2 ">
+              <Link to={"/about"} className="px-3 py-2">
                 About
               </Link>
             </div>
             <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))]  text-white">
-              <Link to={"/skills"} className="px-3 py-2 ">
+              <Link to={"/skills"} className="px-3 py-2">
                 Skills
               </Link>
             </div>
             <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))]  text-white">
-              <a href="mailto:yazdaalizaidi@gmail.com" className="px-3 py-2 ">
+              <a href="mailto:yazdaalizaidi@gmail.com" className="px-3 py-2">
                 Contact
               </a>
             </div>
@@ -33,7 +33,7 @@ function Navbar() {
                 Home
               </Link>
             </div>
-            <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))]  text-white">
+            <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))] text-white">
               <Link to={"/about"} className="px-3 py-2 ">
                 About
               </Link>
@@ -57,19 +57,7 @@ function Navbar() {
                 className="ml-1 text-gray-100"
               />
             </a>
-            {/* <a
-            href="mailto:yazdaalizaidi@gmail.com"
-            className="text-white px-4 inline-block"
-          >
-            <span className="transition duration-300 ease-in-out bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Contact me
-            </span>
-          </a> */}
           </div>
-
-          {/* <a href="/Ali_Yazdan_SIT.pdf" target="_blank" rel="noopener noreferrer" className="text-white px-4 hover:underline">
-          yazdaalizaidi@gmail.com
-        </a> */}
         </div>
       </div>
     </nav>
