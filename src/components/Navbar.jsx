@@ -10,7 +10,7 @@ function Navbar() {
               Ali Yazdan
             </Link>
           </div>
-          <div className="backdrop-blur-md hidden sm:block font-kanit text-center bg-gradient-to-b from-blue-700 to-blue-900 rounded-full px-8">
+          <div className="backdrop-blur-md hidden sm:flex justify-center items-center gap-5 font-kanit text-center bg-gradient-to-b from-blue-700 to-blue-900 rounded-full px-8">
             <div className="inline-block hover:border-t-2 border-white  py-3 hover:bg-[radial-gradient(ellipse_60%_60%_at_50%_-20%,rgba(255,255,255,0.7),rgba(255,255,255,0))]  text-white">
               <Link to={"/about"} className="px-3 py-2">
                 About
@@ -46,7 +46,7 @@ function Navbar() {
           </div>
           <div className="items-center hidden sm:flex">
             <a
-              href="/Ali_Yazdan_SIT.pdf"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white py-2 px-4 rounded-full hover:bg-blue-950 flex transition duration-300 ease-in-out"

@@ -4,7 +4,7 @@ import ProfileCard from "./ProfilesCards";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-b  to-blue-950 from-black py-16">
+    <div className="bg-gradient-to-b min-h-screen to-blue-950 from-black py-16">
       <Navbar />
       <div className="text-left  flex justify-center  flex-col py-12 gap-3">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-kanit italic  font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-700 text-center">
